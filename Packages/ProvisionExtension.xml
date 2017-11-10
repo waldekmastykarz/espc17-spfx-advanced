@@ -1,0 +1,14 @@
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2017/05/ProvisioningSchema">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=2.18.1709.0, Culture=neutral, PublicKeyToken=null" />
+  <pnp:Templates ID="CONTAINER-PNP-CUSTOM-ACTION">
+    <pnp:ProvisioningTemplate ID="PNP-CUSTOM-ACTION" Version="1" BaseSiteTemplate="GROUP#0">
+      <pnp:CustomActions>
+        <pnp:SiteCustomActions>
+          <pnp:CustomAction Name="SPFxApplicationCustomizer" Title="SPFxApplicationCustomizer" Location="ClientSideExtension.ApplicationCustomizer"
+                            ClientSideComponentId="babbd7cf-f9a2-4027-8e5d-87b662ffcf3c"
+                            ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}" />
+        </pnp:SiteCustomActions>
+      </pnp:CustomActions>
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>

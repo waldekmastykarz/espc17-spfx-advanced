@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "web-part-tenant-client-side-solution",
+    "id": "005b5318-1a19-4f4d-87d4-ddb913048a4f",
+    "version": "1.0.0.0",
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/web-part-tenant.sppkg"
+  }
+}

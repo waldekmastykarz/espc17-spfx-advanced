@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "share-point-extension-client-side-solution",
+    "id": "03d5643e-d609-4e77-b0c5-941fa00289da",
+    "version": "1.0.0.0",
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/share-point-extension.sppkg"
+  }
+}

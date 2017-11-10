@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="ExtensionNonTenant"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="77932167-bed7-4612-a736-15d51e46e2ad"
+        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </CustomAction>
+</Elements>

@@ -1,0 +1,45 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "webpart-1-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/webpart1/Webpart1WebPart.js",
+          "manifest": "./src/webparts/webpart1/Webpart1WebPart.manifest.json"
+        }
+      ]
+    },
+    "webpart-2-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/webpart2/Webpart2WebPart.js",
+          "manifest": "./src/webparts/webpart2/Webpart2WebPart.manifest.json"
+        }
+      ]
+    },
+    "app-extension-1-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/appExtension1/AppExtension1ApplicationCustomizer.js",
+          "manifest": "./src/extensions/appExtension1/AppExtension1ApplicationCustomizer.manifest.json"
+        }
+      ]
+    },
+    "field-extension-1-field-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/fieldExtension1/FieldExtension1FieldCustomizer.js",
+          "manifest": "./src/extensions/fieldExtension1/FieldExtension1FieldCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "Webpart1WebPartStrings": "lib/webparts/webpart1/loc/{locale}.js",
+    "Webpart2WebPartStrings": "lib/webparts/webpart2/loc/{locale}.js",
+    "AppExtension1ApplicationCustomizerStrings": "lib/extensions/appExtension1/loc/{locale}.js",
+    "FieldExtension1FieldCustomizerStrings": "lib/extensions/fieldExtension1/loc/{locale}.js"
+  }
+}

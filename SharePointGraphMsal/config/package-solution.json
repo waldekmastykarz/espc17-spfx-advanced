@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "share-point-graph-msal-client-side-solution",
+    "id": "547cdb39-2088-4bbe-9e39-99eb77d32708",
+    "version": "1.0.0.0",
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/share-point-graph-msal.sppkg"
+  }
+}

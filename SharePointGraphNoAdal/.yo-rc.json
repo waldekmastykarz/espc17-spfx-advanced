@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.3.2",
+    "libraryName": "share-point-graph-no-adal",
+    "libraryId": "c4645dba-8c33-4594-bced-95694cbc7455",
+    "environment": "spo"
+  }
+}

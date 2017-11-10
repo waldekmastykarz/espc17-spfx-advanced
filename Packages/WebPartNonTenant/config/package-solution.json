@@ -1,0 +1,11 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "webpart-non-tenant-client-side-solution",
+    "id": "bbdcc153-2a03-43f1-a8e1-afba7a30422b",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/webpart-non-tenant.sppkg"
+  }
+}

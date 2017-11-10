@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hello-world-tenant-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/helloWorldTenant/HelloWorldTenantWebPart.js",
+          "manifest": "./src/webparts/helloWorldTenant/HelloWorldTenantWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HelloWorldTenantWebPartStrings": "lib/webparts/helloWorldTenant/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "extension-tenant-client-side-solution",
+    "id": "fa6c6f2e-f853-4a07-a1fa-c30fef964722",
+    "version": "1.0.0.0",
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/extension-tenant.sppkg"
+  }
+}

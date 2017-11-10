@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "web-part-non-tenant-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/webPartNonTenant/WebPartNonTenantWebPart.js",
+          "manifest": "./src/webparts/webPartNonTenant/WebPartNonTenantWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "WebPartNonTenantWebPartStrings": "lib/webparts/webPartNonTenant/loc/{locale}.js"
+  }
+}

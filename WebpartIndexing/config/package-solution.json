@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "webpart-indexing-client-side-solution",
+    "id": "ab41b1d1-6b22-46f8-84b4-a2beebaa02d7",
+    "version": "1.0.0.0",
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/webpart-indexing.sppkg"
+  }
+}

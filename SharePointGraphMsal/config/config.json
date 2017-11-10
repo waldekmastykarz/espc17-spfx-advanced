@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "share-point-graph-msal-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/sharePointGraphMsal/SharePointGraphMsalWebPart.js",
+          "manifest": "./src/webparts/sharePointGraphMsal/SharePointGraphMsalWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SharePointGraphMsalWebPartStrings": "lib/webparts/sharePointGraphMsal/loc/{locale}.js"
+  }
+}

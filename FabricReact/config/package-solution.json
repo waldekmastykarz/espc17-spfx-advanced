@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "fabric-react-client-side-solution",
+    "id": "e0eeda10-abbf-4083-b7fa-6fc0a2a56cde",
+    "version": "1.0.0.0",
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/fabric-react.sppkg"
+  }
+}

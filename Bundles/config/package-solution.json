@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "bundles-client-side-solution",
+    "id": "de5f2ff7-10de-4399-845c-c0d357844e91",
+    "version": "1.0.0.0",
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/bundles.sppkg"
+  }
+}

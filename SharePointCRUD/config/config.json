@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "share-point-crud-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/sharePointCrud/SharePointCrudWebPart.js",
+          "manifest": "./src/webparts/sharePointCrud/SharePointCrudWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SharePointCrudWebPartStrings": "lib/webparts/sharePointCrud/loc/{locale}.js"
+  }
+}

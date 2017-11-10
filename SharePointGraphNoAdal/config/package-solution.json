@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "share-point-graph-no-adal-client-side-solution",
+    "id": "c4645dba-8c33-4594-bced-95694cbc7455",
+    "version": "1.0.0.0",
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/share-point-graph-no-adal.sppkg"
+  }
+}
